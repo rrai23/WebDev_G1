@@ -34,9 +34,16 @@ html {
     position: relative;
     text-decoration: none;
     color:  #FCEBD1;
-    border-radius: 20px; 
+    border-radius: 8px; 
     background-color: transparent;
     padding: 5px 20px; 
+}
+
+
+.nav-menu li a:hover{
+    color: #FCEBD1;
+    background-color: #fab17a;
+    color:  #191e32;
 }
 
 
@@ -49,8 +56,8 @@ html {
 }
 
 .titleContainer {
-    width: 512px;
-    height: 150px;
+    width: 612px;
+    height: 252px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -58,8 +65,8 @@ html {
 }
 
 .titleContainer img {
-    width: 115%;
-    height: 115%;
+    width: 120%;
+    height: 120%;
     object-fit: contain;
 }
 
@@ -72,4 +79,33 @@ html {
     width: 28%;
     height: 28%;
     object-fit: contain;
+}
+
+.headerContainer {
+    width: 500px;
+    height: 152px;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 17px;
+}
+
+.title1{
+    width: 75%;
+    height: auto;
+    margin-left: 60px; 
+    min-width: 150px;
+}
+.title2{
+    width: 75%;
+    height: auto;
+    margin-left: 109px; 
+    min-width: 150px;
+}
+
+.title3{
+    width: 75%;
+    height: auto;
+    margin-left: 70px; 
+    min-width: 150px;
 }
