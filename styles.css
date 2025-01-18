@@ -190,3 +190,93 @@ ul.list1 {
     font-family: 'poppins', sans-serif;
     font-weight: 700;
 }
+
+.tableContainer {
+    padding: 0px 100px 100px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    font-family: 'poppins', sans-serif;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    text-align: left;
+    color: azure;
+}
+
+table th, table td {
+    border: 1px solid #b3bbea;
+    padding: 10px 15px;
+}
+
+table th {
+    background-color: #161626;
+    font-weight: bold;
+}
+
+table tr:hover {
+    background-color: #2b2a45;
+}
+
+.formContainer {
+    padding: 20px;
+    background-color: #2b2a45; 
+    color: white;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.formContainer h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input,
+form textarea,
+form select {
+    font-family: 'poppins', sans-serif;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #161626; 
+    color: white;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+    outline: none;
+    border: 2px solid #444;
+}
+
+form button {
+    padding: 10px;
+    background-color: #161626;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #38385e;
+}
